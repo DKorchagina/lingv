@@ -69,7 +69,7 @@ def find_rhyme_scheme_for_block(b, check_indexes):
 | Corr. Rhyme      | 160        | 65              |
 | Corr. no Rhyme   | 11         | 675             |
 
-Precision=/frac{TP}{TP+FP} = /frac{160}{160+65}=0.711
+Precision = /frac{TP}{TP+FP} = /frac{160}{160+65}=0.711
 
 
 ## Интерпретация полученных результатов
