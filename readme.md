@@ -72,7 +72,9 @@ def find_rhyme_scheme_for_block(b, check_indexes):
 |                |             |               |
 
 $Precision = \frac{TP}{TP+FP} = \frac{160}{160+11}=0.936$
+
 $Recall = \frac{TP}{TP+FN} = \frac{160}{160+65}=0.711$
+
 $F1=2*\frac{Precision*Recall}{Precision+Recall}=2*\frac{0.936*0.711}{0.936+0.711}=0.808$
 
 ## Интерпретация полученных результатов
