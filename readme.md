@@ -75,7 +75,10 @@ $Precision = \frac{TP}{TP+FP} = \frac{160}{160+11}=0.936$
 
 $Recall = \frac{TP}{TP+FN} = \frac{160}{160+65}=0.711$
 
-$F1=2*\frac{Precision*Recall}{Precision+Recall}=2*\frac{0.936*0.711}{0.936+0.711}=0.808$
+$$
+F_1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} = 2 \times \frac{0.936 \times 0.711}{0.936 + 0.711} = 0.808
+$$
+
 
 ## Интерпретация полученных результатов
 
