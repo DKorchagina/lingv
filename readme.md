@@ -64,13 +64,16 @@ def find_rhyme_scheme_for_block(b, check_indexes):
         * анапест - 618
         * дактиль - 535
 4. При ручной оценке точности и полноты поиска срифмованных строк на 20 стихотворениях при размере окна 4 получены следующие результаты:
-|                  | Pred.Rhyme | Pred. not Rhyme |
-|------------------|------------|-----------------|
-| Corr. Rhyme      | 160        | 65              |
-| Corr. no Rhyme   | 11         | 675             |
 
-Precision = $\frac{TP}{TP+FP} = \frac{160}{160+65}=0.711$
+|                | Pred. Rhyme | Pred. no Rhyme |
+|----------------|-------------|---------------|
+| Corr. Rhyme    | 160         | 65            |
+| Corr. no rhyme | 11          | 675           |
+|                |             |               |
 
+$Precision = \frac{TP}{TP+FP} = \frac{160}{160+11}=0.936$
+$Recall = \frac{TP}{TP+FN} = \frac{160}{160+65}=0.711$
+$F1=2*\frac{Precision*Recall}{Precision+Recall}=2*\frac{0.936*0.711}{0.936+0.711}=0.808$
 
 ## Интерпретация полученных результатов
 
